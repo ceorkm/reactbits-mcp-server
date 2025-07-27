@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "reactbits": {
+      "command": "npx",
+      "args": ["@reactbits/mcp-server"],
+      "env": {
+        "GITHUB_TOKEN": "your_github_token_here_optional"
+      }
+    }
+  }
+}

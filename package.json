@@ -1,0 +1,59 @@
+{
+  "name": "reactbits-dev-mcp-server",
+  "version": "1.1.1",
+  "description": "MCP server providing access to 135+ animated React components from ReactBits.dev",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "reactbits-dev-mcp": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "src/data",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "clean": "rm -rf dist",
+    "prepare": "npm run build",
+    "discover": "tsx scripts/discover-components.ts",
+    "update-registry": "tsx scripts/discover-components.ts && tsx scripts/update-service.ts",
+    "test": "node test-list-components.js",
+    "prepublishOnly": "npm run clean && npm run build && npm run test"
+  },
+  "keywords": [
+    "mcp",
+    "reactbits",
+    "react",
+    "components",
+    "ui",
+    "modelcontextprotocol"
+  ],
+  "author": "ReactBits MCP",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reactbits/mcp-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/reactbits/mcp-server/issues"
+  },
+  "homepage": "https://github.com/reactbits/mcp-server#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.0",
+    "@types/node": "^24.1.0",
+    "axios": "^1.11.0",
+    "cheerio": "^1.1.2",
+    "node-html-parser": "^7.0.1",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}

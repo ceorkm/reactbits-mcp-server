@@ -1,0 +1,31 @@
+# Source files
+src/**/*.ts
+!src/data/**
+
+# Test files
+test*
+*.test.*
+__tests__
+
+# Config files
+tsconfig.json
+.env*
+!.env.example
+
+# Scripts
+scripts/
+
+# Documentation
+ACCOMPLISHMENTS.md
+TESTING.md
+claude-desktop-config.json
+
+# Development files
+*.log
+.DS_Store
+node_modules/
+.git/
+.github/
+
+# Build files
+*.tsbuildinfo

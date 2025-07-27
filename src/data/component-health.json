@@ -1,0 +1,135 @@
+{
+  "componentHealth": {
+    "animations": {
+      "status": "complete",
+      "quality": 9.5,
+      "components": {
+        "animated-content": "complete",
+        "blob-cursor": "complete",
+        "click-spark": "complete",
+        "crosshair": "complete",
+        "cubes": "complete",
+        "fade-content": "complete",
+        "glare-hover": "complete",
+        "image-trail": "complete",
+        "magnet": "complete",
+        "magnet-lines": "complete",
+        "parallax": "complete",
+        "splash-cursor": "complete",
+        "spotlight": "complete",
+        "text-glitch": "complete",
+        "typewriter": "complete"
+      }
+    },
+    "backgrounds": {
+      "status": "complete",
+      "quality": 9.8,
+      "components": {
+        "aurora": "complete",
+        "beams": "complete",
+        "circular-noise": "complete",
+        "dotted": "complete",
+        "grid": "complete",
+        "particles": "complete",
+        "pixelated": "complete",
+        "ripple": "complete",
+        "smoky": "complete",
+        "static-noise": "complete",
+        "wave": "complete",
+        "word-pull": "complete"
+      }
+    },
+    "buttons": {
+      "status": "incomplete",
+      "quality": 2.0,
+      "components": {
+        "button-1": "placeholder",
+        "button-2": "placeholder",
+        "button-3": "placeholder",
+        "button-4": "placeholder",
+        "button-5": "placeholder",
+        "button-6": "placeholder",
+        "button-7": "placeholder",
+        "button-8": "placeholder"
+      }
+    },
+    "forms": {
+      "status": "incomplete",
+      "quality": 2.0,
+      "components": {
+        "form-1": "placeholder",
+        "form-2": "placeholder",
+        "form-3": "placeholder"
+      }
+    },
+    "loaders": {
+      "status": "incomplete", 
+      "quality": 2.0,
+      "components": {
+        "loader-1": "placeholder",
+        "loader-2": "placeholder",
+        "loader-3": "placeholder",
+        "loader-4": "placeholder",
+        "loader-5": "placeholder",
+        "loader-6": "placeholder",
+        "loader-7": "placeholder",
+        "loader-8": "placeholder",
+        "loader-9": "placeholder"
+      }
+    },
+    "text-animations": {
+      "status": "complete",
+      "quality": 9.0,
+      "components": {
+        "ascii-text": "complete",
+        "blur-text": "complete",
+        "circular-text": "complete",
+        "count-up": "complete",
+        "cover-text": "complete",
+        "gradient-text": "complete",
+        "jumbled-text": "complete",
+        "marquee": "complete",
+        "moving-text": "complete",
+        "random-text": "complete",
+        "staggered-text": "complete",
+        "transition-text": "complete",
+        "wavering-text": "complete"
+      }
+    },
+    "components": {
+      "status": "mostly-complete",
+      "quality": 8.0,
+      "components": {
+        "accordion": "complete",
+        "animated-list": "complete",
+        "badge": "complete",
+        "bento": "complete",
+        "calendar": "complete",
+        "command": "complete",
+        "dialog": "complete",
+        "dock": "complete",
+        "drawer": "complete",
+        "dropdown": "complete",
+        "glassmorphism": "complete",
+        "gradient-border": "complete",
+        "keyboard": "complete",
+        "noise": "complete",
+        "otp": "complete",
+        "pagination": "complete",
+        "pixel-card": "complete",
+        "progress": "complete",
+        "scroll-indicator": "complete",
+        "sticky-scroll": "complete"
+      }
+    }
+  },
+  "dependencies": {
+    "framer-motion": ["text-animations", "animations"],
+    "gsap": ["blob-cursor", "magnet", "magnet-lines"],
+    "three": ["beams", "ascii-text"],
+    "ogl": ["aurora"],
+    "@react-three/fiber": ["beams"],
+    "@react-three/drei": ["beams"]
+  },
+  "lastUpdated": "2025-07-27"
+}
