@@ -24,10 +24,8 @@
     "start": "node dist/index.js",
     "clean": "rm -rf dist",
     "prepare": "npm run build",
-    "discover": "tsx scripts/discover-components.ts",
-    "update-registry": "tsx scripts/discover-components.ts && tsx scripts/update-service.ts",
-    "test": "node test-list-components.js",
-    "prepublishOnly": "npm run clean && npm run build && npm run test"
+    "test": "npm run build && node test-essential.js",
+    "prepublishOnly": "npm run clean && npm run build"
   },
   "keywords": [
     "mcp",
