@@ -1,6 +1,6 @@
 {
   "name": "reactbits-dev-mcp-server",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "MCP server providing access to 135+ animated React components from ReactBits.dev",
   "type": "module",
   "main": "dist/index.js",
@@ -39,12 +39,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/reactbits/mcp-server.git"
+    "url": "git+https://github.com/ceorkm/reactbits-mcp-server.git"
   },
   "bugs": {
-    "url": "https://github.com/reactbits/mcp-server/issues"
+    "url": "https://github.com/ceorkm/reactbits-mcp-server/issues"
   },
-  "homepage": "https://github.com/reactbits/mcp-server#readme",
+  "homepage": "https://github.com/ceorkm/reactbits-mcp-server#readme",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.17.0",
     "@types/node": "^24.1.0",

@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.1.2] - 2025-07-27
+
+### Changed
+- Cleaned up repository structure for production release
+- Removed unnecessary test files and development scripts
+- Simplified package.json scripts
+- Improved .gitignore patterns
+
+### Fixed
+- Cleaner npm package without development artifacts
+
 ## [1.1.1] - 2025-07-27
 
 ### Fixed
