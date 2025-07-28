@@ -311,6 +311,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Support
 
-- 🐛 [Report Issues](https://github.com/yourusername/reactbits-mcp-server/issues)
-- 💬 [Discussions](https://github.com/yourusername/reactbits-mcp-server/discussions)
-- 📧 Contact: your-email@example.com
+- 🐛 [Report Issues](https://github.com/ceorkm/reactbits-mcp-server/issues)
+- 💬 [Discussions](https://github.com/ceorkm/reactbits-mcp-server/discussions)
