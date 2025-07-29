@@ -4,6 +4,10 @@ A Model Context Protocol (MCP) server that provides AI assistants with access to
 
 > ⚠️ **Important Note**: Some ReactBits components (buttons, forms, loaders) currently have incomplete implementations. See [Component Quality Status](#component-quality-status) below.
 
+<a href="https://glama.ai/mcp/servers/@ceorkm/reactbits-mcp-server">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@ceorkm/reactbits-mcp-server/badge" alt="ReactBits Server MCP server" />
+</a>
+
 ## Features
 
 - 🎨 **Component Discovery**: Browse and search through all ReactBits components
